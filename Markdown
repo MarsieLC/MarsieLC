@@ -1,0 +1,17 @@
+# Markdown Demo
+
+Markdown is plain text. It's meant to be easily readable -- and writable!
+
+## Advantages
+
+* Easy for anyone to read.
+* Widely adopted by various wikis and note-taking apps, such as Obsidian, Discord, Medium, and Docusaurus (free for everyone).
+* Natively supported by GitHub.
+* Made to be converted to HTML.
+ 
+ ## Disadvantages 
+
+ - Minimal features by design.
+ - Does not support syntax highlighting by default; however, you can you can use extensions and tools designed to enhance rendering and readability.
+ - Many competing interpreters, such as GitHub-Flavored Markdown.
+ 
