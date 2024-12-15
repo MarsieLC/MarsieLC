@@ -9,9 +9,23 @@ Markdown is plain text. It's meant to be easily readable -- and writable!
 * Natively supported by GitHub.
 * Made to be converted to HTML.
  
- ## Disadvantages 
+## Disadvantages 
 
- - Minimal features by design.
- - Does not support syntax highlighting by default; however, you can you can use extensions and tools designed to enhance rendering and readability.
- - Many competing interpreters, such as GitHub-Flavored Markdown.
- 
+- Minimal features by design.
+- Does not support syntax highlighting by default; however, you can you can use extensions and tools designed to enhance rendering and readability.
+- Many competing interpreters, such as GitHub-Flavored Markdown.
+- Missing many features, such as line breaks, and the official solution is to embed HTML tag <br>.
+- Many features implemented inconsistently (or not at all) in different product.<br> *For instanse, tables are not part of the original Markdown specification and are implemented differently in various tools (e.g., GitHub Flavored Markdown supports tables, but some blog engines or parsers may not). Markdown doesn't support math natively. Tools like Pandoc, Jupyter Notebooks, and Markdown plugins add this as an extension. Some Markdown parsers automatically create hyperlinks for plain URLs, while others do not.*
+- _Only_ designed for HTML.
+- No ability to create a page break or line-break. [^1]
+- No auto-generated table of contents or index.
+
+[^1]: Although yoy can add horizontal lines. (And footnotes.)
+
+---
+
+## Text Formatting
+
+* You can *emphasize* **words**.
+* Put technical values, such as a variable or keystroke (`Ctrl+C`) in backticks.
+
